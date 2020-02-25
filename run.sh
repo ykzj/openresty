@@ -4,7 +4,7 @@ while :
 do
     for url in $URL_LIST
     do
-        curl -qo /dev/null $url
+        curl -s -qo /dev/null $url
         sleep 60
     done
     sleep 300
